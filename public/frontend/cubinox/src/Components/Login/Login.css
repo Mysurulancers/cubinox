@@ -1,0 +1,64 @@
+.MuiFormControl-root {
+    width: 100%;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto 0px;
+}
+
+.input-cntr {
+    margin: 20px 0px;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: limegreen !important;
+}
+.login-btn:hover {
+    background-color: forestgreen !important;
+}
+
+.divider {
+    text-align: center;
+    width: 100%;
+    margin: 32px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.divider:after, .divider:before {
+    content: "";
+    height: 1.5px;
+    background: #d8d9dc;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.divider-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 33px;
+    flex-basis: 33px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin: 0;
+    border: 1px solid #d8d9dc;
+    color: #84888e;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+}

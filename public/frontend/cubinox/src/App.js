@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Router} from '@reach/router';
+import Login from './Components/Login/Login';
+import Header from './Components/Header/Header';
+import Homepage from './Components/Homepage/Homepage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Cubinox
-        </h1>
-      </header>
+    <div>
+    <Header></Header>
+    <div className="main-container">
+      <Router>
+        <Homepage path="/"/>
+        <Login path="/login/"/>
+      </Router>
+    </div>
     </div>
   );
 }
