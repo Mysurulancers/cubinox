@@ -15,7 +15,7 @@ class Header extends Component {
             <header>
                 <div className="logo-sec">
                     <Link to="/">
-                    <img src={logo} className="logo-img" alt="company logo"/>
+                    <img src={require("../../assets/logo.png")} className="logo-img" alt="company logo"/>
                     </Link>
                 </div>
                 <div className="navbar">

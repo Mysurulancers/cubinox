@@ -1,0 +1,10 @@
+
+.MuiContainer-root {
+    padding: 30px 20px 20px;
+}
+
+
+.formContainer form {
+    max-width: 40%;
+    margin: 20px auto;
+}
